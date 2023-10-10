@@ -1,0 +1,19 @@
+.container{
+    padding: 0rem 1rem;
+    
+}
+
+.link{
+    text-decoration: none;      
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+    text-align: right;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
