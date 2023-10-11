@@ -35,9 +35,23 @@ main{
     background-color: rgb(216, 214, 211);
 }
 
+.header-div{
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+
+}
+
+.header-link{
+    font-family: East Sea Dokdo;
+    font-size: 3.5rem;
+    color: black;
+}
+
 
 .header .logo{
-    height: 3rem;
+    height: 4rem;
+    width: auto;
 }
 
 .header .navbar-list-inline{
@@ -45,11 +59,35 @@ main{
     padding: 0rem 0.5rem;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .header .navbar-link{
-    text-decoration: none;      
+        
     padding: 0.5rem 1rem;
 }
 
+.navbar-link:link,
+.navbar-link:visited {
+    /* display: inline-block; */
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #212529;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+
+.header-link:hover,
+.header-link:active{
+    color: #ff7817;
+}
+
+.navbar-link:hover,
+.navbar-link:active{
+    color: #ff7817;
+}
 
 
 
