@@ -1,19 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito sans;
+}
+
+html{
+    font-size: 62.5%;
+    color: red;
+    
+}
+
+body{
+    border: 2rem solid #ff7817;
+}
+
+main{
+    width: 90vw;
+    min-height: calc(100vh - 10rem - 6.1rem);
+}
+
+
+.header{
+    /* 1rem = 10px  */
+    padding: 0 4.8rem;    
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(216, 214, 211);
+}
+
+
+.header .logo{
+    height: 3rem;
+}
+
+.header .navbar-list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.header .navbar-link{
+    text-decoration: none;      
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+
+/* 
 .container{
     padding: 0rem 1rem;
     
 }
 
-.link{
-    text-decoration: none;      
-    padding: 0.5rem 1rem;
-}
 
 .list-non-bullet{
     list-style: none;
     text-align: right;
 }
 
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
-}
+ */
+ 
