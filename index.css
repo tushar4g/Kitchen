@@ -32,7 +32,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(216, 214, 211);
+    /* background-color: rgb(216, 214, 211); */
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
 }
 
 .header-div{
@@ -61,6 +62,11 @@ main{
 
 .link{
     text-decoration: none;
+}
+
+.sign-up-link{
+    background-color: #ff7817;
+    border-radius: .5rem;
 }
 
 .header .navbar-link{
