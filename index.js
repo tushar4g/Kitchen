@@ -8,3 +8,8 @@ const toggleNavbar = () => {
 
 mobile.addEventListener('click', () => toggleNavbar());
 
+document.querySelectorAll(".navbar-link").forEach(n => n.addEventListener("click"), () =>
+{
+    mobile.classList.remove("active");
+    nav_head.classList.remove("active");
+})

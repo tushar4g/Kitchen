@@ -34,6 +34,7 @@ main{
 
 .header{
     /* 1rem = 10px  */
+    
     padding: 0 4.8rem;    
     height: 10rem;
     display: flex;
@@ -217,17 +218,3 @@ main{
 
 
 
-/* 
-.container{
-    padding: 0rem 1rem;
-    
-}
-
-
-.list-non-bullet{
-    list-style: none;
-    text-align: right;
-}
-
- */
- 
