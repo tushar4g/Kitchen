@@ -26,7 +26,7 @@ body{
 }
 
 main{
-    /* min-width: 100vh; */
+    min-width: 100vh;
     width: 90vw;
     min-height: calc(100vh - 10rem - 6.1rem);
 }
@@ -42,6 +42,7 @@ main{
     align-items: center;
     /* background-color: rgb(216, 214, 211); */
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2); 
+    
 }
 
 .header-div{
@@ -77,6 +78,8 @@ main{
     border-radius: .5rem;
 }
 
+
+
 .header .navbar-link{
         
     padding: 0.5rem 1rem;
@@ -101,6 +104,11 @@ main{
 .navbar-link:hover,
 .navbar-link:active{
     color: #ff7817;
+}
+
+.sign-up-link:hover,
+.sign-up-link:active{
+    color: #ede5df;
 }
 
 
