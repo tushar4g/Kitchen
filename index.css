@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
-<style>
+
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
-</style>
+
 
 
 
@@ -98,6 +98,47 @@ main{
 .navbar-link:hover,
 .navbar-link:active{
     color: #ff7817;
+}
+
+
+.navbar-mobile-btn{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-mobile-icon{
+    width: 4rem;
+    height: 4rem;
+    color: #212529;
+}
+
+
+.nav-mobile-icon[name="close-outline"]{
+    display: none;
+}
+
+
+
+/* 1em = 16px */
+/* 62em = 980px */
+
+@media(max-width: 62em){
+    .navbar-mobile-btn{
+        display: block;
+    }
+
+
+    .header-div{
+        gap: 2rem;
+    }
+
+    .header-link{
+        font-size: 2rem;
+    }
+
+    
+
 }
 
 
