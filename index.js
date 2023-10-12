@@ -1,7 +1,10 @@
-const mobile_nav = document.querySelector(".navbar-mobile-btn");
+const mobile = document.querySelector(".navbar-mobile-btn");
+const nav_head= document.querySelector(".header");
 
 const toggleNavbar = () => {
-    alert("tushar clicked");
-}
+    // alert("we only connect this index.js file just above the closing body tag");
+    nav_head.classList.toggle("active");
+};
 
-mobile_nav.addEventListener('click', () => toggleNavbar());
+mobile.addEventListener('click', () => toggleNavbar());
+
