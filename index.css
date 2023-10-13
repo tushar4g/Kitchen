@@ -15,7 +15,7 @@
 
 html{
     font-size: 62.5%;
-    color: red;
+    color: blue;
     overflow-x: hidden;
     
 }
@@ -34,7 +34,8 @@ main{
 
 .header{
     /* 1rem = 10px  */
-    
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
     padding: 0 4.8rem;    
     height: 10rem;
     display: flex;
@@ -78,12 +79,12 @@ main{
     border-radius: .5rem;
 }
 
-
-
 .header .navbar-link{
         
     padding: 0.5rem 1rem;
 }
+
+/* <========use of hover start========> */
 
 .navbar-link:link,
 .navbar-link:visited {
@@ -111,6 +112,7 @@ main{
     color: #ede5df;
 }
 
+/* <========use of hover end========> */
 
 .navbar-mobile-btn{
     display: none;
