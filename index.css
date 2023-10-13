@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
 
 
 
@@ -23,19 +21,19 @@ html{
 body{
     border: 2rem solid #ff7817;
     overflow-x: hidden;
+    line-height: 1.5;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 main{
     min-width: 100vh;
-    width: 90vw;
-    min-height: calc(100vh - 10rem - 6.1rem);
+    /* width: 90vw; */
+    min-height: calc(100vh - 20rem);
 }
 
 
 .header{
     /* 1rem = 10px  */
-    /* position: -webkit-sticky; */
-    /* position: sticky; */
     padding: 0 4.8rem;    
     height: 10rem;
     display: flex;
@@ -72,6 +70,7 @@ main{
 
 .link{
     text-decoration: none;
+    
 }
 
 .sign-up-link{
@@ -227,4 +226,62 @@ main{
 
 
 
+.footer{
+    padding: 1.5rem 4.8rem;    
+    height: auto;
+    /* display: flex; */
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: rgb(216, 214, 211);
+    box-shadow: 0px -2.98256px 7.4564px 0px rgba(0, 0, 0, 0.3);
+}
 
+ul{
+    list-style: none;
+}
+
+.footer-div-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-div-row-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-div-row-col h4{
+    font-size: 1.8rem;
+    color: #212529;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    /* font-weight: 500; */
+    position: relative;
+}
+
+.footer-div-row-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ff7817;
+    height: 2px;
+    width: 50px;
+}
+
+.footer-div-row-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-div-row-col ul li a{
+    font-size: 1rem;
+    color: #212529;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-div-row-col ul li a:hover{
+    padding-left: 8px;
+}
