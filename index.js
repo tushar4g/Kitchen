@@ -13,3 +13,19 @@ document.querySelectorAll(".navbar-link").forEach(n => n.addEventListener("click
     mobile.classList.remove("active");
     nav_head.classList.remove("active");
 })
+
+
+
+var swiper = new swiper(".swipper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true,
+  });

@@ -6,11 +6,6 @@
     <title>The Kitchen cafe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <!-- <script src="index.js"></script> -->
   </head>
@@ -62,22 +57,42 @@
 
     <!-- ================Main start===================== -->
     <main>
-      <section class="swipper section-wrapper">
-        <div class="swipper-wrapper">
-          <div class="swiper-slide slide">
-            <img class="slider-img" src="Images/4th.jpg" alt="food1" />
+      <section class="section">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" />
+            <input type="radio" name="radio-btn" />
+            <input type="radio" name="radio-btn" />
+            <input type="radio" name="radio-btn" />
+            <div class="slide">
+              <img class="slide-img" src="Images/4th.jpg" alt="food1" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="Images/2nd.jpg" alt="food1" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="Images/3rd.jpg" alt="food1" />
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="Images/5th.jpg" alt="food1" />
+            </div>
+
+            <div class="nav-auto">
+              <div class="a-b1"></div>
+              <div class="a-b2"></div>
+              <div class="a-b3"></div>
+              <div class="a-b4"></div>
+            </div>
           </div>
-          <div class="swiper-slide slide">
-            <img class="slider-img" src="Images/2nd.jpg" alt="food1" />
+
+          <div class="nav m">
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
           </div>
-          <div class="swiper-slide slide">
-            <img class="slider-img" src="Images/3rd.jpg" alt="food1" />
-          </div>
-          <div class="swiper-slide slide">
-            <img class="slider-img" src="Images/5th.jpg" alt="food1" />
-          </div>
+
         </div>
-        <div class="swiper-pagination"></div>
       </section>
       <section>Indoor Dining</section>
       <section>Our Story</section>
@@ -150,9 +165,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-
-    <!-- ========slider swiper js file link======= -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script src="index.js"></script>
   </body>
