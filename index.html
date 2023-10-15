@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>The Kitchen cafe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <!-- <script src="index.js"></script> -->
   </head>
@@ -56,19 +62,22 @@
 
     <!-- ================Main start===================== -->
     <main>
-      <section class="section-wrapper">
-        <div class="slide">
-          <img class="slider-img" src="Images/4th.jpg" alt="food1">
+      <section class="swipper section-wrapper">
+        <div class="swipper-wrapper">
+          <div class="swiper-slide slide">
+            <img class="slider-img" src="Images/4th.jpg" alt="food1" />
+          </div>
+          <div class="swiper-slide slide">
+            <img class="slider-img" src="Images/2nd.jpg" alt="food1" />
+          </div>
+          <div class="swiper-slide slide">
+            <img class="slider-img" src="Images/3rd.jpg" alt="food1" />
+          </div>
+          <div class="swiper-slide slide">
+            <img class="slider-img" src="Images/5th.jpg" alt="food1" />
+          </div>
         </div>
-        <div class="slide">
-          <img class="slider-img" src="Images/2nd.jpg" alt="food1">
-        </div>
-        <div class="slide">
-          <img class="slider-img" src="Images/3rd.jpg" alt="food1">
-        </div>
-        <div class="slide">
-          <img class="slider-img" src="Images/5th.jpg" alt="food1">
-        </div>
+        <div class="swiper-pagination"></div>
       </section>
       <section>Indoor Dining</section>
       <section>Our Story</section>
@@ -81,15 +90,13 @@
     <footer class="footer">
       <div class="footer-div">
         <div class="footer-div-row">
-          
-            <img
-              class="logo footer-logo"
-              src="Images/logo.jpg"
-              alt="kitchen logo"
-              width="20 rem"
-            />
+          <img
+            class="logo footer-logo"
+            src="Images/logo.jpg"
+            alt="kitchen logo"
+            width="20 rem"
+          />
 
-          
           <div class="footer-div-row-col">
             <h4>About</h4>
             <ul>
@@ -143,6 +150,9 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- ========slider swiper js file link======= -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script src="index.js"></script>
   </body>
