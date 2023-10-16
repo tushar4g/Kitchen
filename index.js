@@ -16,16 +16,11 @@ document.querySelectorAll(".navbar-link").forEach(n => n.addEventListener("click
 
 
 
-var swiper = new swiper(".swipper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 7500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    loop:true,
-  });
+var counter = 1;
+setInterval(function(){
+    document.getElementById('radio'+counter).checked=true;
+    counter++;
+    if(counter>4){
+        counter=1;
+    }
+},5000);

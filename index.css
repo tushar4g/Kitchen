@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
+
+
 
 *{
     padding: 0;
@@ -73,6 +76,7 @@ main{
 
 .link{
     text-decoration: none;
+    color: #212529;
     
 }
 
@@ -365,4 +369,160 @@ ul{
 .slide img{
     width: 100%;
     height: 500px;
+}
+
+.nav-m{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.m-btn{
+    border: 2px solid #ff7817;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+
+.m-btn:hover{
+    background-color: #ede5df;
+}
+
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: 20%;
+}
+#radio3:checked ~.first{
+    margin-left: 40%;
+}
+#radio4:checked ~.first{
+    margin-left: 60%;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div{
+    border: 2px solid #ff7817;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color: #ff7817;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+    background-color: #ff7817;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+    background-color: #ff7817;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+    background-color: #ff7817;
+}
+
+
+.dinning-section{
+    padding: 5rem 30rem;
+    
+}
+
+.dinning{
+    padding: 0 2rem;
+    text-align: center;
+    color: #212529;
+    
+}
+
+.dine-first{
+    
+    margin-bottom: 3.5rem;
+    
+    font-family: 'Amatic SC', sans-serif;
+    
+}
+
+.dineh1{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: xxx-large;
+
+}
+
+.dh3{
+    font-size: x-large;
+}
+
+.dh4{
+    font-size: large;
+}
+
+.dine-link{
+    font: 700;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: large;
+    margin: 2.5rem 0;
+}
+
+.dlink:link,
+.dlink:visited{
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.dlink:hover,
+.dlink:active{
+    color: #ff7817;
+}
+
+.dine-time h4{
+    margin-top: 2.5rem;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: large;
+}
+
+
+.story{
+    background-color: #C8A992;
+    width: 100%;
+    height: 800px;
+}
+
+.story-one{
+    display: flex;
+    text-align: center;
+}
+
+.one-img{
+    width: 500px;
+    height: 350px;
+}
+
+.story-two{
+    display: flex;
+}
+
+.two-img{
+    width: 500px;
+    height: 350px;
 }
