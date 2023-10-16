@@ -575,6 +575,7 @@ ul{
 .card-container{
     display: grid;
     grid-template-columns: 420px 420px;
+    background-color: rgb(4, 4, 4);
 }
 
 .card-img{
@@ -583,13 +584,13 @@ ul{
 
 .banner h1{
     padding-bottom: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     color: #212529;
     font-size: xxx-large;
     font-family: 'Kalam', cursive;
     font-weight: lighter;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .card-content{
@@ -600,13 +601,58 @@ ul{
 
 .card-content h3{
     text-align: center;
-    color: #212529;
+    color: #fff;
     padding: 25px 0 10px 0;
     font-size: 26px;
     font-weight: 500;
+    font-family: Nunito sans;
     /* font-family: 'Kalam', cursive; */
 }
 
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Nunito sans;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ff7817;
+    font-weight: 300;
+}
+
+form input[type=text], form input[type=number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+
+form input[type=submit]{
+    color: #fff;
+    background: #ff7817;
+    padding: 12px o;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    opacity: 0.9;
+}
+
+@media(max-width: 62em){
+    .card-container{
+        grid-template-columns: 100%;
+    }
+
+    .card-img{
+        height: 330px;
+    }
+}
 
 /* .testimo{
     width: 100%;
