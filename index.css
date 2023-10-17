@@ -576,6 +576,7 @@ ul{
     display: grid;
     grid-template-columns: 420px 420px;
     background-color: rgb(4, 4, 4);
+    margin-bottom: 13rem;
 }
 
 .card-img{
@@ -654,7 +655,24 @@ form input[type=submit]:hover{
     }
 }
 
-/* .testimo{
+.testimo{
     width: 100%;
-    height: 400px;
-} */
+    height: 700px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+
+.testimo-img{
+    background: url("Images/custm (1).jpg") center/cover no-repeat;
+    /* opacity: 0.9; */
+    
+}
+
+.testimo-img div{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
