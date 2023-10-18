@@ -723,6 +723,7 @@ form input[type=submit]:hover{
      font-family: 'Kalam', cursive;
      margin-bottom: 1rem;
      
+     
 }
 
 .testimo-img div h4{
@@ -742,3 +743,112 @@ form input[type=submit]:hover{
     font-family: 'Kalam', cursive;
 }
 /* ==============5th sectionn end============ */
+
+
+
+/* ==============MENU START============ */
+.main-menu{
+    color: #212529;
+    padding: 4rem 8rem;
+}
+
+.menuss{
+    display: grid;
+    justify-content: start;
+    position: fixed;
+}
+
+.menuss h1{
+    text-decoration: underline solid #ff7817;
+    padding: 2rem;
+    font-size: x-large;
+}
+
+.menuss ul{
+    padding: 2.5rem;
+}
+
+.menuss ul li{
+    margin-bottom: 2rem;
+    font-size: medium;
+}
+
+.menuss ul li:hover{
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+
+
+.outer-menu-div{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7.6%;
+}
+
+.main-menu-div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.main-menu-div a{
+    margin-bottom: 10%;
+    font-size: large;
+}
+
+.inner-div{
+    margin-top: 3%;
+    width: 100%;
+    height: 400px;
+    background-color: #a09893;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    
+}
+
+.inner-most-card-div{
+    width: 200px;
+    height: 350px;
+    margin: 1rem;
+    background-color: #C8A992;
+}
+
+.inner-most-card-div img{
+    width: 100%;
+    height: 50%;
+}
+
+.inner-most-card-div h4{
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: 500;
+    padding: 3px;
+
+}
+
+.btn-div-menu{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.btn-div-menu button{
+    width: 50%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border-radius: 19px;
+    justify-content: center;
+    background-color: #ff7817;
+    border-color: #ff7817;
+    
+}
+
+.btn-div-menu button:hover{
+    color: #fff;
+    cursor: pointer;
+    
+
+}
