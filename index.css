@@ -852,3 +852,356 @@ form input[type=submit]:hover{
     
 
 }
+
+
+
+
+/* ===========cart start========== */
+
+.main-cart-itm{
+    background: url("Images/cart1.jpg")  center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.main-cart-itm h2{
+    color: #fff;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    display: flex;
+    font-size: large;
+}
+
+
+.cart_item{
+    display: flex;
+   /* background-color: #515151; */
+   border-radius: 10;
+   align: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 1px outset black; */
+    
+    color: #fff;
+  
+  
+}
+.order_item {
+    
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    color: #fff;
+    height: 500px;
+}
+.cart_form{
+    align-items: center;
+    width: 580px;
+    float: right;
+    border: 0px solid #ccc;
+    padding: 92px;
+}
+.orderbutton {
+    font-size: 24px;
+    padding: 2px 9px;
+}
+.ordertextbox {
+    font-size: 24px;
+    padding: 2px 4px;
+    text-align: center;
+    width: 50px;
+}
+.cartitemh2{
+align-items: center
+fontsize: 36px;
+
+}
+
+.user_order_info{
+    color: #fff;
+}
+
+.user_order_info button{
+    background-color: #ff7817;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.checkoutbutton {
+    background-color: #b2c240; /* Change the background color to your desired color */
+    color: #fff; /* Text color */
+    padding: 15px 30px; /* Adjust padding for size */
+    font-size: 16px; /* Adjust font size as needed */
+    border: none; /* Remove the default button border */
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+/*============= cart end================ */
+
+
+
+/* --------------- ourservices---------------- */
+
+.ourservices-main-img{
+   
+    min-height: 100vh;
+    display: grid;
+    flex-direction: column;
+    /* padding: 5rem; */
+    color: #fff;
+    padding: 5rem;
+    width: 100%;
+    grid-template-columns: 900px;
+    /* grid-template: 500px; */
+    /* grid-column: 500px; */
+}
+
+.services-div-main-img{
+    background: url(service.jpg) center/cover no-repeat;
+    
+}
+
+.freespaceRectangle { 
+	background-color:rgba(247.00000047683716, 63.000000044703484, 151.00000619888306, 0.9700000286102295);
+	width:201px;
+	height:43px;
+	position:absolute;
+	left:244px;
+	top:654px;
+	border-radius:50px;
+}
+.free_space { 
+	color:rgba(255, 255, 255, 1);
+	width:135px;
+	height:28px;
+	position:absolute;
+	left:277px;
+	top:662px;
+	font-family:Inter;
+	text-align:left;
+	font-size:22.972116470336914px;
+	letter-spacing:0;
+}
+.freespace_detail {
+    color:rgba(0, 0, 0, 1);
+	width:207px;
+	height:76px;
+	position:absolute;
+	left:240px;
+	top:703px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+
+}
+.relaxedEnviromentRectangle { 
+	background-color:rgba(97.00000181794167, 234.00000125169754, 224.000001847744, 1);
+	width:205px;
+	height:43px;
+	position:absolute;
+	left:698px;
+	top:657px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+.relaxed_enviroment { 
+	color:rgba(255, 255, 255, 1);
+	width:186px;
+	height:19px;
+	position:absolute;
+	left:708px;
+	top:669px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.perfect_servingRectangle { 
+	background-color:rgba(45.00000111758709, 217.0000022649765, 133.00000727176666, 1);
+	width:205px;
+	height:44px;
+	position:absolute;
+	left:476px;
+	top:736px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+.perfect_serving { 
+	color:rgba(255, 255, 255, 1);
+	width:191px;
+	height:25px;
+	position:absolute;
+	left:483px;
+	top:745px;
+	font-family:Inter;
+	text-align:left;
+	font-size:20.993656158447266px;
+	letter-spacing:0;
+}
+.aromatic_smellRectangle { 
+	background-color:rgba(252.00000017881393, 224.000001847744, 1.0000000591389835, 1);
+	width:204px;
+	height:45px;
+	position:absolute;
+	left:925px;
+	top:736px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+.aromatic_smell { 
+	color:rgba(255, 255, 255, 1);
+	width:175px;
+	height:24px;
+	position:absolute;
+	left:939px;
+	top:747px;
+	font-family:Inter;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.best_dishesRectangle { 
+	background-color:rgba(187.00000405311584, 155.00000596046448, 202.00000315904617, 1);
+	width:215px;
+	height:45px;
+	position:absolute;
+	left:1147px;
+	top:657px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+.best_dishes { 
+	color:rgba(255, 255, 255, 1);
+	width:129px;
+	height:24px;
+	position:absolute;
+	left:1187px;
+	top:671px;
+	font-family:Inter;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.rectangle_1 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:210px;
+	height:102px;
+	position:absolute;
+	left:240px;
+	top:702px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.rectangle_2 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:216px;
+	height:103px;
+	position:absolute;
+	left:472px;
+	top:787px;
+	border-top-left-radius:26px;
+	border-top-right-radius:26px;
+	border-bottom-left-radius:26px;
+	border-bottom-right-radius:26px;
+}
+.rectangle_3 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:211px;
+	height:102px;
+	position:absolute;
+	left:699px;
+	top:702px;
+	border-top-left-radius:26px;
+	border-top-right-radius:26px;
+	border-bottom-left-radius:26px;
+	border-bottom-right-radius:26px;
+}
+.rectangle_4 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:223px;
+	height:103px;
+	position:absolute;
+	left:918px;
+	top:787px;
+	border-top-left-radius:26px;
+	border-top-right-radius:26px;
+	border-bottom-left-radius:26px;
+	border-bottom-right-radius:26px;
+}
+.rectangle_5 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:215px;
+	height:102px;
+	position:absolute;
+	left:1147px;
+	top:708px;
+	border-top-left-radius:26px;
+	border-top-right-radius:26px;
+	border-bottom-left-radius:26px;
+	border-bottom-right-radius:26px;
+}
+.restaurants_aim { 
+	color:rgba(0, 0, 0, 1);
+	width:203px;
+	height:57px;
+	position:absolute;
+	left:1154px;
+	top:718px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.good_customer { 
+	color:rgba(0, 0, 0, 1);
+	width:193px;
+	height:57px;
+	position:absolute;
+	left:481px;
+	top:800px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.maintaining_a_clean { 
+	color:rgba(0, 0, 0, 1);
+	width:207px;
+	height:76px;
+	position:absolute;
+	left:703px;
+	top:712px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.aromatic_smells_in_a_restaurant { 
+	color:rgba(0, 0, 0, 1);
+	width:193px;
+	height:76px;
+	position:absolute;
+	left:934px;
+	top:800px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
