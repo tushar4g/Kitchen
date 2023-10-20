@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+
+    <link rel="stylesheet" type="text/css" href="signup.css" />
     <!-- <script src="index.js"></script> -->
   </head>
   <body>
@@ -58,10 +60,22 @@
     <!-- ===============Header end============ -->
 
     <!-- ================Main start===================== -->
-    <main>
-
-        
+    <main><br>
+      <div class="container">
+        <form class="signup-form" action="" method="post">
+            <h1>Create an Account</h1><br>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <input type="password" name="password" placeholder="Enter your Password" required>
+            <input type="password" name="password" placeholder="Enter your Password again" required>
+            <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+            <div>
+            <input type="checkbox" name="privacy-policy" id="">I agree to all terms and conditions.</div><br>
+            <button type="submit">Create account</button>
+        </form>
+    </div><br>
     </main>
+
     <!-- ==================Main end===================== -->
 
     <!-- ==================Footer start===================== -->

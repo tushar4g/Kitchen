@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+
+    <link rel="stylesheet" type="text/css" href="reservation.css">
     <!-- <script src="index.js"></script> -->
   </head>
   <body>
@@ -60,6 +62,45 @@
     <!-- ================Main start===================== -->
     <main>
 
+      <div class="bgr"> <br>
+
+        <section class="dinein">
+            
+            <div class="container">
+                
+                <h1><b>Reserve your Table</b></h1><br>
+                
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a -or-less normal distribution of letters, as opposed to using 'Content here, content here',</p><br>
+                
+                <form action="" id="reservation-form">
+                
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required><br>
+    
+                <label for="phone">Your Phone number:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+    
+                <label for="date">Your reservation Date:</label>
+                <input type="date" id="date" name="date" required><br>
+    
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br>
+    
+                <label for="party-size">Party Size:</label>
+                <input type="number" id="party-size" name="party-size" required><br>
+    
+                <label for="special-requests">Special Requests:</label>
+                <textarea id="special-requests" name="special-requests" rows="4"></textarea><br><br>
+    
+                <button type="submit">Reserve Table</button>
+                </form>
+            </div>
+        </section><br>
+    </div>
+    
         
     </main>
     <!-- ==================Main end===================== -->

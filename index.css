@@ -752,6 +752,10 @@ form input[type=submit]:hover{
     padding: 4rem 8rem;
 }
 
+.menuss .footer:hover{
+    position: absolute;
+}
+
 .menuss{
     display: grid;
     justify-content: start;
@@ -843,6 +847,7 @@ form input[type=submit]:hover{
     justify-content: center;
     background-color: #ff8b39;
     border-color: #ff7817;
+    border: none;
     
 }
 
@@ -908,6 +913,7 @@ form input[type=submit]:hover{
 .orderbutton {
     font-size: 24px;
     padding: 2px 9px;
+    cursor: pointer;
 }
 .ordertextbox {
     font-size: 24px;
@@ -1209,60 +1215,3 @@ fontsize: 36px;
 
 
 
-
-/* FEEEEED========== */
-
-.feedback-img-my{
-    width: 100%;
-  
-  
-    background-size: cover;
-  }
-  
-  #txt1{
-  
-    font-size: 36px;
-  }
-  #bgc{
-  background-color:white;
-  height:100%;
-  width: 100%
-  ;
-  }
-  
-  input[type=text], textarea {
-    width: 80%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: #f3faf9;
-  }
-  
-  input[type=submit] {
-    
-    background-color: #04AA6D;
-    color: rgb(238, 209, 209);
-    padding: 12px 20px;
-    border: none;
-    border-radius: 20px;
-    position: absolute;
-    cursor: pointer;
-  
-  }
-  
-  input[type=submit]:hover {
-    background-color: #6842f3;
-    
-  }
-  
-  .container_feedback {
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: white;
-    padding:2%;
-  }
-  
